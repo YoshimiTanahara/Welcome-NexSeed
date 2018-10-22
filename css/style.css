@@ -258,5 +258,73 @@ footer {
 
 /*スマホ*/
 @media screen and (max-width: 480px){
-
+  
+.icon {
+  margin-left: 20px;
 }
+
+.icon span {
+    display: none;
+}
+
+.header-right {
+    display: none;
+  }
+.title {
+  font-size: 30px;
+}
+.guideline {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.btn-group {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    margin-left: 0;
+    margin-top: 15px;
+    height: 48px;
+    font-weight: normal;
+}
+
+.btn:first-child {
+    margin-top: 0;
+}
+
+.img-box {
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-box li {
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+.img-box li span {
+    font-size: 18px;
+}
+
+.sub-title {
+    font-size: 24px;
+}
+
+.contact h2 {
+  font-size: 24px;
+}
+
+footer .icon {
+  display: none;
+}
+
+.footer-rigth {
+  display: block;
+  margin :0 auto;
+}
+  }
